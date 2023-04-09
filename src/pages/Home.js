@@ -1,25 +1,25 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Typed from "typed.js";
-import Image from "../assets/PJr.webp";
-import CV from "../assets/CV.pdf";
+import Image from "../assets/pjr.webp";
+import CV from "../assets/CV1.pdf";
 import Me from "../assets/me.jpg";
 import "../css/popularity.css";
 import CardProject from "../components/card/CardProject";
 import { Data } from "../assets/data";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 import { Notyf } from "notyf";
-import 'notyf/notyf.min.css'
+import "notyf/notyf.min.css";
 
 const Home = () => {
-  
+  const [loading, setLoading] = useState(false);
+
   const notyf = new Notyf({
     duration: 4000,
-    position:{
+    position: {
       x: "right",
-      y: "top"
-    }
+      y: "top",
+    },
   });
-
 
   const el = useRef(null);
   const el2 = useRef(null);
@@ -27,15 +27,26 @@ const Home = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
+    setLoading(true);
     e.preventDefault();
 
-    emailjs.sendForm('service_98z5ohn', 'template_os6j44i', form.current, 'u-qJqDWGdBvWaaZwR')
-      .then((result) => {
-        e.target.reset();
-        notyf.success("Your message was sent, I'll get back to you.");
-      }, (error) => {
-        notyf.error("It seems an error occured, try again!");
-      });
+    emailjs
+      .sendForm(
+        "service_98z5ohn",
+        "template_os6j44i",
+        form.current,
+        "u-qJqDWGdBvWaaZwR"
+      )
+      .then(
+        (result) => {
+          e.target.reset();
+          setLoading(false);
+          notyf.success("Your message was sent, I'll get back to you.");
+        },
+        (error) => {
+          notyf.error("It seems an error occured, try again!");
+        }
+      );
   };
 
   useEffect(() => {
@@ -366,8 +377,20 @@ const Home = () => {
                   ></textarea>
                 </div>
                 <div className="button-area">
-                  <button name="submit" type="submit">
+                  <button
+                    name="submit"
+                    className="d-flex align-items-center justify-content-center"
+                    type="submit"
+                  >
                     Send message
+                    {loading && (
+                      <div
+                        class="spinner-border text-light ms-2 spinner-border-sm"
+                        role="status"
+                      >
+                        <span class="visually-hidden">Loading...</span>
+                      </div>
+                    )}
                   </button>
                 </div>
               </form>
@@ -384,7 +407,7 @@ const Home = () => {
               <div class="projects">
                 <div class="row">
                   {Data.map((item, index) => {
-                    return <CardProject item={item}/>;
+                    return <CardProject item={item} />;
                   })}
                 </div>
               </div>
@@ -392,7 +415,9 @@ const Home = () => {
           </div>
 
           <div className="d-flex justify-content-center">
-            <a className="btn btn-primary btn-lg mt-3" href="#contact">Contact for more</a>
+            <a className="btn btn-primary btn-lg mt-3" href="#contact">
+              Contact for more
+            </a>
           </div>
         </div>
       </section>

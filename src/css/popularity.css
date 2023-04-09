@@ -57,6 +57,19 @@ ul.filters > li.active > a {
   width: inherit;
   text-overflow: ellipsis;
 }
+
+@media(max-width: 360px){
+  .product_info {
+    padding-left: 15px;
+  }
+  .product_name{
+    width: 250px;
+    font-size: 12px;
+  }
+  .product_name a{
+    font-size: 12px !important;
+  }
+}
 .product_name a {
   font-size: 16px;
   line-height: 1.2;

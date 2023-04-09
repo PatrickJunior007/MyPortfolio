@@ -65,7 +65,7 @@ section .title::after{
 /* home section styling */
 .home{
   display: flex;
-  background: url("../assets/PJr.webp") no-repeat center;
+  background: url("../assets/pjr.webp") no-repeat center;
   background-position-y: 10%;
   background-color: rgb(26, 26, 26);
   height: 75vh;
@@ -228,13 +228,11 @@ section .title::after{
   }
 }
 .projecting .title::after{
-  
   content: "what I've done";
 }
-@media (max-width: 310px){
+@media (max-width: 400px){
   .projecting .title::after{
-  
-    content: "knowledge";
+    content: "projects";
   }
 }
 .skills .skills-content .column{
@@ -403,7 +401,7 @@ align-items: center;
 .right form .button-area button{
 color: #fff;
 display: block;
-width: 160px!important;
+width: 190px!important;
 height: 45px;
 outline: none;
 font-size: 18px;

@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../assets/pjr.png"
-import {BsGithub, BsLinkedin, BsMailbox, BsPhone, BsPhoneFill, BsTelephone, BsTelephoneFill} from 'react-icons/bs'
+import {BsGithub, BsLinkedin, BsTelephoneFill} from 'react-icons/bs'
 import {AiFillMail} from 'react-icons/ai'
 
 const Header = () => {
@@ -49,33 +49,13 @@ const Header = () => {
             <i className="fas fa-bars"></i>
           </label>
 
-          {/* <div id="product_search_bar" className="boom">
-            <form
-              autocomplete="off"
-              method="POST"
-              action="search_result.php"
-              style={{display: 'flex', padding: "0px"}}
-              className="col-12 col-lg-auto mt-1 mb-lg-0 me-lg-3"
-            >
-              <input
-                style={{display: 'block', marginRight: '10px'}}
-                name="search_content"
-                type="search"
-                className="form-control mr-2"
-                placeholder="Search..."
-                aria-label="Search"
-                required
-              />
-              <button
-                style={{display: 'block', padding: '2px 12px', fontSize: '16px'}}
-                name="search"
-                type="submit"
-                className="btn btn-outline-warning"
-              >
-                <i className="fas fa-search"></i>
-              </button>
-            </form>
-          </div> */}
+
+          <div id="user_mini_box_first" className="d-flex align-items-center">
+            <a className="me-3" target="_blank" href="https://www.linkedin.com/in/patrick-junior-a75365233" rel="noreferrer"><BsLinkedin color="white" size={22}/></a>
+            <a className="me-3" target="_blank"  href="https://github.com/PatrickJunior007" rel="noreferrer"><BsGithub color="white" size={22}/></a>
+            <a className="me-3" href="tel:+237670157564"><BsTelephoneFill color="white" size={22}/></a>
+            <a className="me-3" href="mailto:ogambapatrickjunior@gmail.com"><AiFillMail color="white" size={25}/></a>
+          </div>
         </div>
       </nav>
     </div>
