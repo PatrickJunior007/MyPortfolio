@@ -65,7 +65,7 @@ section .title::after{
 /* home section styling */
 .home{
   display: flex;
-  background: url("../assets/pjr.webp") no-repeat center;
+  background: url("../assets/PJr.webp") no-repeat center;
   background-position-y: 10%;
   background-color: rgb(26, 26, 26);
   height: 75vh;

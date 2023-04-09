@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import Typed from "typed.js";
-import Image from "../assets/pjr.webp";
+import Image from "../assets/PJr.webp";
 import CV from "../assets/CV1.pdf";
 import Me from "../assets/me.jpg";
 import "../css/popularity.css";
