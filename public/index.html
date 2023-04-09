@@ -1,43 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/pjr_icon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/pjr_icon.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <title>Patrick Junior - Portfolio</title>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+  <meta name="description" content="I'm Ogamba Patrick Junior an experienced Software Engineer, FullSatck and Mobile Developer with a demonstrated history of working in the information technology and services industry.">
+
+  <!-- Facebook -->
+  <meta property="og:url" content="https://shopiflex.000webhostapp.com/">
+  <meta property="og:title" content="Patrick Junior - Portfolio">
+  <meta property="og:description" content="I'm Ogamba Patrick Junior an experienced Software Engineer, FullSatck and Mobile Developer with a demonstrated history of working in the information technology and services industry.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="%PUBLIC_URL%/main.webp">
+  <meta property="og:image:width" content="1000">
+  <meta property="og:image:height" content="500">
+
+
+  <style>
+    *,
+    a {
+      text-decoration: none !important;
+      color: currentColor;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- <noscript>You need to enable JavaScript to run this app.</noscript> -->
+  <div id="root"></div>
+  <a class="gotop123" href="#bool"><i style="color: white" class="fas fa-arrow-up"></i></a>
+
+
+  <script src="%PUBLIC_URL%/jquery-2.2.4.min.js"></script>
+  <script src="%PUBLIC_URL%/isotope.min.js"></script>
+  <script src="%PUBLIC_URL%/filter.js"></script>
+
+  <script>
+    var scroll = document.querySelector(".gotop123");
+    window.addEventListener("scroll", function () {
+      scroll.classList.toggle("active", window.scrollY > 300);
+    }, false);
+  </script>
+
+</body>
+
+
+
 </html>

@@ -1,0 +1,116 @@
+/*--------------Start of Filtering Carousel--------------*/
+ul.filters {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 30px 0;
+}
+
+ul.filters > li {
+  list-style: none;
+  display: inline-block;
+}
+
+ul.filters > li > a {
+  display: block;
+  color: #434e5e;
+  text-decoration: none;
+  padding: 5px 20px;
+}
+
+ul.filters > li > a:hover {
+  background-color: #e6e9ed;
+}
+
+ul.filters > li.active > a {
+  color: #fff;
+  background-color: #28bea8;
+}
+.card {
+  position: relative;
+  margin-bottom: 20px;
+  color: #000;
+  border-radius: 0;
+  border: 1px solid #eee;
+  background-color: #fff;
+  box-shadow: 1px 1px 1.5px rgba(0, 0, 0, 0.075);
+  width: '100%'
+}
+
+.card-head {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.product_info {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  width: '100%'
+}
+.product_name {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  width: inherit;
+  text-overflow: ellipsis;
+}
+.product_name a {
+  font-size: 16px;
+  line-height: 1.2;
+  color: #4a4a4a;
+  font-weight: 500;
+  text-decoration: none;
+}
+.product_name a:hover,
+.product_category a:hover {
+  color: rgb(241, 237, 16);
+}
+.home_item_large .product_name a,
+.home_item_large .product_category,
+.home_item_large .product_category a {
+  color: #ffffff;
+}
+.product_category {
+  margin-top: 2px;
+}
+.product_category,
+.product_category a {
+  font-size: 12px;
+  color: #969696;
+  font-style: italic;
+  font-weight: 400;
+}
+.home_item_large .product_category,
+.home_item_large .product_category a {
+  font-weight: 300;
+}
+.product_price {
+  font-size: 22px;
+  color: #4a4a4a;
+  font-weight: 500;
+  margin-top: 19px;
+  line-height: 0.75;
+}
+.home_item_large .product_price {
+  color: #ffffff;
+}
+.rating {
+  display: flex;
+  color: #4a4a4a;
+}
+.product_price span {
+  font-size: 13px;
+  margin-left: 1px;
+  vertical-align: top;
+}
+
+@media (max-width: 700px) {
+  ul.filters > li {
+    padding: 0px;
+    margin: 0;
+  }
+}
+/*--------------###End of Filtering Carousel###--------------*/
