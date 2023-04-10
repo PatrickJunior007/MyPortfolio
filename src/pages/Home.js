@@ -115,7 +115,7 @@ const Home = () => {
               </div>
               <p>
                 With two years of experience and graduated from the University
-                of Golf of Guinee having Bachelor of Techology in Software
+                of Golf of Guinee having a Professional Bachelor in Software
                 Engineering, I successfully combined my studies with work and
                 other commitments showing myself to be self-motivated, organized
                 and capable of working in collaboration with others. In addition
@@ -219,7 +219,7 @@ const Home = () => {
                 application development.
                 <br />
                 <span style={{ fontWeight: "600" }}>10.</span> Have Skills in
-                developing .
+                developing
                 <strong style={{ color: "#0E5092" }}> REST APIs </strong> using
                 <strong style={{ color: "#0E5092" }}> Node</strong> and{" "}
                 <strong style={{ color: "#0E5092" }}>Express</strong>.
