@@ -58,16 +58,19 @@ ul.filters > li.active > a {
   text-overflow: ellipsis;
 }
 
-@media(max-width: 360px){
+@media(max-width: 365px){
   .product_info {
     padding-left: 15px;
   }
   .product_name{
-    width: 250px;
+    width: 250px !important;
     font-size: 12px;
   }
   .product_name a{
     font-size: 12px !important;
+  }
+  .product_category{
+    font-size: 11px !important;
   }
 }
 .product_name a {

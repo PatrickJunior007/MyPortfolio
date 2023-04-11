@@ -524,3 +524,9 @@ background: none;
   }
 
 }
+
+@media(max-width: 305px){
+  .contact .contact-content .info .sub-title{
+    font-size: 11px;
+  }
+}

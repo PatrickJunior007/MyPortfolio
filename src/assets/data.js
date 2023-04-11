@@ -6,6 +6,7 @@ import Image5 from './designs/nynedesign.webp';
 import Image6 from './designs/compens.webp';
 import Image7 from './designs/votimania.webp';
 import Image8 from './designs/electronic.webp';
+import Image9 from './designs/mahola.webp';
 
 export const Data=[
   {
@@ -14,6 +15,13 @@ export const Data=[
     link: 'http://shopiflex.infinityfreeapp.com/',
     technology: 'Laravel, MySQL, PHP, BootStrap',
     image: Image1
+  },
+  {
+    id: 9,
+    name: 'Mahola - Investment App',
+    link: 'javascript:void(0)',
+    technology: 'React Native, Laravel, Rest API | (In dev.)',
+    image: Image9
   },
   {
     id: 2,
@@ -39,7 +47,7 @@ export const Data=[
   {
     id: 5,
     name: 'Compens International - Bank App',
-    link: '#',
+    link: 'javascript:void(0)',
     technology: 'React Native, RestFul API, Symfony',
     image: Image6
   },
