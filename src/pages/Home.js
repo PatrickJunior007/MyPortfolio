@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import Typed from "typed.js";
 import Image from "../assets/PJr.webp";
-import CV from "../assets/CV4.pdf";
+import CV from "../assets/CV5.pdf";
 import Me from "../assets/me.jpg";
 import "../css/popularity.css";
 import CardProject from "../components/card/CardProject";
