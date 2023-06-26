@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import Typed from "typed.js";
 import Image from "../assets/PJr.webp";
-import CV from "../assets/CV7.pdf";
+import CV from "../assets/CV8.pdf";
 import Me from "../assets/me.jpg";
 import "../css/popularity.css";
 import CardProject from "../components/card/CardProject";
@@ -221,7 +221,7 @@ const Home = () => {
                 <span style={{ fontWeight: "600" }}>10.</span> Have Skills in
                 developing
                 <strong style={{ color: "#0E5092" }}> REST APIs </strong> using
-                <strong style={{ color: "#0E5092" }}> Node</strong> and{" "}
+                <strong style={{ color: "#0E5092" }}>Laravel, Node</strong> and{" "}
                 <strong style={{ color: "#0E5092" }}>Express</strong>.
                 <br />
                 <span style={{ fontWeight: "600" }}>11.</span> Other Skills
