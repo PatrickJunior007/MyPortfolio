@@ -221,7 +221,7 @@ const Home = () => {
                 <span style={{ fontWeight: "600" }}>10.</span> Have Skills in
                 developing
                 <strong style={{ color: "#0E5092" }}> REST APIs </strong> using
-                <strong style={{ color: "#0E5092" }}>Laravel, Node</strong> and{" "}
+                <strong style={{ color: "#0E5092" }}> Laravel, Node</strong> and{" "}
                 <strong style={{ color: "#0E5092" }}>Express</strong>.
                 <br />
                 <span style={{ fontWeight: "600" }}>11.</span> Other Skills
