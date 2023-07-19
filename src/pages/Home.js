@@ -245,7 +245,7 @@ const Home = () => {
               <div className="bars">
                 <div className="info">
                   <span>JavaScript</span>
-                  <span>80%</span>
+                  <span>85%</span>
                 </div>
                 <div className="line css"></div>
               </div>
@@ -289,8 +289,7 @@ const Home = () => {
             <div className="column left">
               <div className="text">Get in Touch</div>
               <p>
-                Contact me for your website design, logo, flyers and mobile app
-                design at a very reasonable price Or to see some of my work
+                Contact me for your web apps, flyers and mobile apps and more at a very reasonable price Or to see some of my work
                 samples.
               </p>
               <div className="icons">

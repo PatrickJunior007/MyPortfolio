@@ -7,6 +7,7 @@ import Image6 from './designs/compens.webp';
 import Image7 from './designs/votimania.webp';
 import Image8 from './designs/electronic.webp';
 import Image9 from './designs/mahola.webp';
+import Image10 from './designs/mweb.webp';
 
 export const Data=[
   {
@@ -18,7 +19,7 @@ export const Data=[
   },
   {
     id: 9,
-    name: 'Mahola - Investment App',
+    name: 'Mahola - Agribusiness App',
     link: 'javascript:void(0)',
     technology: 'React Native, Laravel, Rest API | (In dev.)',
     image: Image9
@@ -39,11 +40,18 @@ export const Data=[
   },
   {
     id: 4,
-    name: 'Sawa Grill - Restaurant E-commerce',
-    link: 'https://sawagrill.com/',
-    technology: 'WordPress, PHP',
-    image: Image4
+    name: 'Mahola - Agribusiness Web App',
+    link: '#',
+    technology: 'Laravel, Rest API, MySQL',
+    image: Image10
   },
+  // {
+  //   id: 4,
+  //   name: 'Sawa Grill - Restaurant E-commerce',
+  //   link: 'https://sawagrill.com/',
+  //   technology: 'WordPress, PHP',
+  //   image: Image4
+  // },
   {
     id: 5,
     name: 'Compens International - Bank App',
