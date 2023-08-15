@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import Typed from "typed.js";
 import Image from "../assets/PJr.webp";
-import CV from "../assets/CV9.pdf";
+import CV from "../assets/CV10.pdf";
 import Me from "../assets/me.jpg";
 import "../css/popularity.css";
 import CardProject from "../components/card/CardProject";
@@ -114,9 +114,9 @@ const Home = () => {
                 <span className="typing-2" ref={el}></span>
               </div>
               <p>
-                With two years of experience and graduated from the University
+                With more than two years of experience and graduated from the University
                 of Golf of Guinee having a Professional Bachelor in Software
-                Engineering, I successfully combined my studies with work and
+                Engineering, I successfully combined my studies, job and
                 other commitments showing myself to be self-motivated, organized
                 and capable of working in collaboration with others. In addition
                 to that I’m very hardworking, learn quickly and easily...
@@ -188,7 +188,8 @@ const Home = () => {
                 <strong style={{ color: "#0E5092" }}> HTML</strong>,
                 <strong style={{ color: "#0E5092" }}> CSS</strong>,{" "}
                 <strong style={{ color: "#0E5092" }}> JQuery</strong>,
-                <strong style={{ color: "#0E5092" }}> WordPress</strong> and
+                <strong style={{ color: "#0E5092" }}> WordPress</strong>,
+                <strong style={{ color: "#0E5092" }}> Tailwind CSS</strong> and
                 <strong style={{ color: "#0E5092" }}> Bootstrap</strong>{" "}
                 framework.
                 <br />
@@ -205,7 +206,8 @@ const Home = () => {
                 <span style={{ fontWeight: "600" }}>7.</span> Skilled in some JS
                 Frameworks like
                 <strong style={{ color: "#0E5092" }}> React Native</strong>,
-                <strong style={{ color: "#0E5092" }}> React </strong> and
+                <strong style={{ color: "#0E5092" }}> React</strong>,
+                <strong style={{ color: "#0E5092" }}> Next JS</strong> and
                 <strong style={{ color: "#0E5092" }}> Nuxt/Vue</strong>.
                 <br />
                 <span style={{ fontWeight: "600" }}>8.</span> Clear and
