@@ -1,13 +1,15 @@
+/* eslint-disable no-script-url */
 import Image1 from './designs/shopiflex.webp';
 import Image2 from './designs/moviemania.webp';
 import Image3 from './designs/nynecars.webp';
-import Image4 from './designs/sawagrill.webp';
+// import Image4 from './designs/sawagrill.webp';
 import Image5 from './designs/nynedesign.webp';
 import Image6 from './designs/compens.webp';
 import Image7 from './designs/votimania.webp';
 import Image8 from './designs/electronic.webp';
 import Image9 from './designs/mahola.webp';
 import Image10 from './designs/mweb.webp';
+import Image11 from './designs/ayila.webp';
 
 export const Data=[
   {
@@ -37,6 +39,13 @@ export const Data=[
     link: 'http://nynecars.com/',
     technology: 'Nuxt/Vue Js, RestFul API, Node',
     image: Image3
+  },
+  {
+    id: 20,
+    name: "Ayila'a - Touristic App",
+    link: 'https://play.google.com/store/apps/details?id=com.ayilaacameroun&hl=en&gl=US',
+    technology: 'React Native, RestFul API, Symfony',
+    image: Image11
   },
   {
     id: 4,
