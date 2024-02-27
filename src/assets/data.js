@@ -10,6 +10,7 @@ import Image8 from './designs/electronic.webp';
 import Image9 from './designs/mahola.webp';
 import Image10 from './designs/mweb.webp';
 import Image11 from './designs/ayila.webp';
+import Image12 from './designs/adaalearning.webp';
 
 export const Data=[
   {
@@ -23,7 +24,7 @@ export const Data=[
     id: 9,
     name: 'Mahola - Agribusiness App',
     link: 'javascript:void(0)',
-    technology: 'React Native, Laravel, Rest API | (In dev.)',
+    technology: 'React Native, Laravel, TypeScript | (In dev.)',
     image: Image9
   },
   {
@@ -67,6 +68,13 @@ export const Data=[
     link: 'javascript:void(0)',
     technology: 'React Native, RestFul API, Symfony',
     image: Image6
+  },
+  {
+    id: 78,
+    name: 'AdaaLearning | E-learning App',
+    link: 'https://adaalearning.com',
+    technology: 'Next Js, TypeScript, Laravel',
+    image: Image12
   },
   {
     id: 6,
