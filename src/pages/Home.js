@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import Typed from "typed.js";
 import Image from "../assets/PJr.webp";
-import CV from "../assets/CV10.pdf";
+import CV from "../assets/CV11.pdf";
 import Me from "../assets/me.jpg";
 import "../css/popularity.css";
 import CardProject from "../components/card/CardProject";
@@ -114,7 +114,7 @@ const Home = () => {
                 <span className="typing-2" ref={el}></span>
               </div>
               <p>
-                With more than two years of experience and graduated from the University
+                With three years of experience and graduated from the University
                 of Golf of Guinee having a Professional Bachelor in Software
                 Engineering, I successfully combined my studies, job and
                 other commitments showing myself to be self-motivated, organized
@@ -139,7 +139,7 @@ const Home = () => {
                 <div className="text text-white">Web Development</div>
                 <p className="text-white">
                   Well-versed in web programming tools, CMS and frameworks like
-                  React, Nuxt/Vue, Node, Laravel and many others.
+                  React, Nuxt/Vue, SpringBoot, Laravel and many others.
                 </p>
               </div>
             </div>
@@ -200,7 +200,8 @@ const Home = () => {
                 <span style={{ fontWeight: "600" }}>6.</span> Skilled in
                 programming languages such as
                 <strong style={{ color: "#0E5092" }}> PHP</strong>,
-                <strong style={{ color: "#0E5092" }}> MySQL</strong> and
+                <strong style={{ color: "#0E5092" }}> JAVA</strong>,
+                <strong style={{ color: "#0E5092" }}> SQL</strong> and
                 <strong style={{ color: "#0E5092" }}> JavaScript</strong>.
                 <br />
                 <span style={{ fontWeight: "600" }}>7.</span> Skilled in some JS
@@ -215,22 +216,15 @@ const Home = () => {
                 <strong style={{ color: "#0E5092" }}> Git </strong> and{" "}
                 <strong style={{ color: "#0E5092" }}>GitHub</strong>.
                 <br />
-                <span style={{ fontWeight: "600" }}>9.</span> Skilled in the PHP
-                backend framework{" "}
-                <strong style={{ color: "#0E5092" }}>Laravel</strong> for web
-                application development.
+                <span style={{ fontWeight: "600" }}>9.</span> Skilled web application and REST APIs development with{" "}
+                <strong style={{ color: "#0E5092" }}>SpringBoot</strong> and 
+                <strong style={{ color: "#0E5092" }}> Laravel</strong>.
                 <br />
-                <span style={{ fontWeight: "600" }}>10.</span> Have Skills in
-                developing
-                <strong style={{ color: "#0E5092" }}> REST APIs </strong> using
-                <strong style={{ color: "#0E5092" }}> Laravel, Node</strong> and{" "}
-                <strong style={{ color: "#0E5092" }}>Express</strong>.
-                <br />
-                <span style={{ fontWeight: "600" }}>11.</span> Other Skills
+                <span style={{ fontWeight: "600" }}>10.</span> Other Skills
                 include:
                 <strong style={{ color: "#0E5092" }}>
                   {" "}
-                  MongoDB, TypeScript, FireBase, Testing, Cucumber, Cypress
+                  Node, Express, MongoDB, TypeScript, FireBase, Testing, Cucumber, Cypress
                 </strong>
                 .
               </p>
@@ -253,13 +247,6 @@ const Home = () => {
               </div>
               <div className="bars">
                 <div className="info">
-                  <span>Graphic Designing</span>
-                  <span>75%</span>
-                </div>
-                <div className="line js"></div>
-              </div>
-              <div className="bars">
-                <div className="info">
                   <span>PHP</span>
                   <span>85%</span>
                 </div>
@@ -267,10 +254,24 @@ const Home = () => {
               </div>
               <div className="bars">
                 <div className="info">
-                  <span>MySQL</span>
+                  <span>JAVA</span>
+                  <span>70%</span>
+                </div>
+                <div className="line java"></div>
+              </div>
+              <div className="bars">
+                <div className="info">
+                  <span>SQL</span>
                   <span>85%</span>
                 </div>
                 <div className="line mysql"></div>
+              </div>
+              <div className="bars">
+                <div className="info">
+                  <span>Graphic Designing</span>
+                  <span>75%</span>
+                </div>
+                <div className="line js"></div>
               </div>
               {/* <div className="bars">
                 <div className="info">
