@@ -11,6 +11,7 @@ import Image9 from './designs/mahola.webp';
 import Image10 from './designs/mweb.webp';
 import Image11 from './designs/ayila.webp';
 import Image12 from './designs/adaalearning.webp';
+import Image13 from './designs/bantubeat.webp';
 
 export const Data=[
   {
@@ -35,11 +36,11 @@ export const Data=[
     image: Image2
   },
   {
-    id: 3,
-    name: "Nyne's Cars - Car Rental",
-    link: 'http://nynecars.com/',
-    technology: 'Nuxt/Vue Js, RestFul API, Node',
-    image: Image3
+    id: 79,
+    name: 'Bantubeat | Music Streaming App',
+    link: 'https://open.bantubeat.com',
+    technology: 'Next Js, TypeScript, Laravel',
+    image: Image13
   },
   {
     id: 20,
@@ -75,6 +76,13 @@ export const Data=[
     link: 'https://adaalearning.com',
     technology: 'Next Js, TypeScript, Laravel',
     image: Image12
+  },
+  {
+    id: 3,
+    name: "Nyne's Cars - Car Rental",
+    link: 'http://nynecars.com/',
+    technology: 'Nuxt/Vue Js, RestFul API, Node',
+    image: Image3
   },
   {
     id: 6,
