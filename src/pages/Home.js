@@ -197,33 +197,33 @@ const Home = () => {
                 Search Engine Optimization |{" "}
                 <strong style={{ color: "#0E5092" }}>SEO</strong>.
                 <br />
-                <span style={{ fontWeight: "600" }}>6.</span> Skilled in
+                <span style={{ fontWeight: "600" }}>5.</span> Skilled in
                 programming languages such as
                 <strong style={{ color: "#0E5092" }}> PHP</strong>,
                 <strong style={{ color: "#0E5092" }}> JAVA</strong>,
                 <strong style={{ color: "#0E5092" }}> SQL</strong> and
                 <strong style={{ color: "#0E5092" }}> JavaScript</strong>.
                 <br />
-                <span style={{ fontWeight: "600" }}>7.</span> Skilled in some JS
+                <span style={{ fontWeight: "600" }}>6.</span> Skilled in some JS
                 Frameworks like
                 <strong style={{ color: "#0E5092" }}> React</strong>,
                 <strong style={{ color: "#0E5092" }}> Next JS</strong> and
                 <strong style={{ color: "#0E5092" }}> Nuxt/Vue</strong>.
                 <br />
-                <span style={{ fontWeight: "600" }}>8.</span> Mobile Development with
+                <span style={{ fontWeight: "600" }}>7.</span> Mobile Development with
                 <strong style={{ color: "#0E5092" }}> React Native</strong> and
                 <strong style={{ color: "#0E5092" }}> Flutter</strong>.
                 <br />
-                <span style={{ fontWeight: "600" }}>9.</span> Clear and
+                <span style={{ fontWeight: "600" }}>8.</span> Clear and
                 understanding knowledge in the versioning tools{" "}
                 <strong style={{ color: "#0E5092" }}> Git </strong> and{" "}
                 <strong style={{ color: "#0E5092" }}>GitHub</strong>.
                 <br />
-                <span style={{ fontWeight: "600" }}>10.</span> Skilled web application and REST APIs development with{" "}
+                <span style={{ fontWeight: "600" }}>9.</span> Skilled web application and REST APIs development with{" "}
                 <strong style={{ color: "#0E5092" }}>SpringBoot</strong> and 
                 <strong style={{ color: "#0E5092" }}> Laravel</strong>.
                 <br />
-                <span style={{ fontWeight: "600" }}>11.</span> Other Skills
+                <span style={{ fontWeight: "600" }}>10.</span> Other Skills
                 include:
                 <strong style={{ color: "#0E5092" }}>
                   {" "}
@@ -316,7 +316,7 @@ const Home = () => {
                     style={{ position: "relative", top: "-30px" }}
                   >
                     <div className="head">Address</div>
-                    <div className="sub-title">Calgary, Alberta</div>
+                    <div className="sub-title">Calgary - Alberta, Canada</div>
                   </div>
                 </div>
                 <div className="row">
