@@ -206,21 +206,24 @@ const Home = () => {
                 <br />
                 <span style={{ fontWeight: "600" }}>7.</span> Skilled in some JS
                 Frameworks like
-                <strong style={{ color: "#0E5092" }}> React Native</strong>,
                 <strong style={{ color: "#0E5092" }}> React</strong>,
                 <strong style={{ color: "#0E5092" }}> Next JS</strong> and
                 <strong style={{ color: "#0E5092" }}> Nuxt/Vue</strong>.
                 <br />
-                <span style={{ fontWeight: "600" }}>8.</span> Clear and
+                <span style={{ fontWeight: "600" }}>8.</span> Mobile Development with
+                <strong style={{ color: "#0E5092" }}> React Native</strong> and
+                <strong style={{ color: "#0E5092" }}> Flutter</strong>.
+                <br />
+                <span style={{ fontWeight: "600" }}>9.</span> Clear and
                 understanding knowledge in the versioning tools{" "}
                 <strong style={{ color: "#0E5092" }}> Git </strong> and{" "}
                 <strong style={{ color: "#0E5092" }}>GitHub</strong>.
                 <br />
-                <span style={{ fontWeight: "600" }}>9.</span> Skilled web application and REST APIs development with{" "}
+                <span style={{ fontWeight: "600" }}>10.</span> Skilled web application and REST APIs development with{" "}
                 <strong style={{ color: "#0E5092" }}>SpringBoot</strong> and 
                 <strong style={{ color: "#0E5092" }}> Laravel</strong>.
                 <br />
-                <span style={{ fontWeight: "600" }}>10.</span> Other Skills
+                <span style={{ fontWeight: "600" }}>11.</span> Other Skills
                 include:
                 <strong style={{ color: "#0E5092" }}>
                   {" "}
@@ -313,7 +316,7 @@ const Home = () => {
                     style={{ position: "relative", top: "-30px" }}
                   >
                     <div className="head">Address</div>
-                    <div className="sub-title">Cite-sic, Douala, Cameroon</div>
+                    <div className="sub-title">Calgary, Alberta</div>
                   </div>
                 </div>
                 <div className="row">
