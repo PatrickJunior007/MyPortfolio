@@ -211,8 +211,7 @@ const Home = () => {
                 <strong style={{ color: "#0E5092" }}> Nuxt/Vue</strong>.
                 <br />
                 <span style={{ fontWeight: "600" }}>7.</span> Mobile Development with
-                <strong style={{ color: "#0E5092" }}> React Native</strong> and
-                <strong style={{ color: "#0E5092" }}> Flutter</strong>.
+                <strong style={{ color: "#0E5092" }}> React Native</strong>.
                 <br />
                 <span style={{ fontWeight: "600" }}>8.</span> Clear and
                 understanding knowledge in the versioning tools{" "}
