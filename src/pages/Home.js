@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import Typed from "typed.js";
 import Image from "../assets/PJr.webp";
-import CV from "../assets/CV12.pdf";
+import CV from "../assets/CV13.pdf";
 import Me from "../assets/me.jpg";
 import "../css/popularity.css";
 import CardProject from "../components/card/CardProject";
@@ -305,7 +305,7 @@ const Home = () => {
                     style={{ position: "relative", top: "-30px" }}
                   >
                     <div className="head">Phone Number</div>
-                    <div className="sub-title">+237 670 15 75 64</div>
+                    <div className="sub-title">+1 (403) 397-0914</div>
                   </div>
                 </div>
                 <div className="row">
