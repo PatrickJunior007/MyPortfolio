@@ -24,7 +24,7 @@ export const Data=[
   {
     id: 9,
     name: 'Mahola - Agribusiness App',
-    link: 'https://mahola.be',
+    link: 'https://drive.google.com/file/d/1ZrdJiLfTVBXkb0b-oSl39Ok0jOC50Fsk/view?usp=drive_link',
     technology: 'React Native, Laravel, TypeScript',
     image: Image9
   },
