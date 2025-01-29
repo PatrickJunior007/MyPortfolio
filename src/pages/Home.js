@@ -257,7 +257,7 @@ const Home = () => {
               <div className="bars">
                 <div className="info">
                   <span>JAVA</span>
-                  <span>70%</span>
+                  <span>75%</span>
                 </div>
                 <div className="line java"></div>
               </div>
