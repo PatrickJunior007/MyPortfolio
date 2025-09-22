@@ -13,13 +13,13 @@ import Image11 from './designs/ayila.webp';
 import Image12 from './designs/adaalearning.webp';
 import Image13 from './designs/bantubeat.webp';
 
-export const Data=[
+export const Data = [
   {
-    id: 1,
-    name: 'Shopiflex - Multivendor E-commerce',
-    link: 'http://shopiflex.infinityfreeapp.com/',
-    technology: 'Laravel, MySQL, PHP, BootStrap',
-    image: Image1
+    id: 78,
+    name: 'AdaaLearning | E-learning App',
+    link: 'https://adaalearning.com',
+    technology: 'Next Js, TypeScript, Laravel',
+    image: Image12
   },
   {
     id: 9,
@@ -28,19 +28,19 @@ export const Data=[
     technology: 'React Native, Laravel, TypeScript',
     image: Image9
   },
+    {
+    id: 79,
+    name: 'Bantubeat | Music Streaming App',
+    link: 'https://open.bantubeat.com',
+    technology: 'Next Js, TypeScript, Laravel',
+    image: Image13
+  },
   {
     id: 2,
     name: 'React Movie - Movie Recommendation',
     link: 'https://movie-mania-lovat.vercel.app/',
     technology: 'React, RestFul API',
     image: Image2
-  },
-  {
-    id: 79,
-    name: 'Bantubeat | Music Streaming App',
-    link: 'https://open.bantubeat.com',
-    technology: 'Next Js, TypeScript, Laravel',
-    image: Image13
   },
   {
     id: 20,
@@ -71,11 +71,11 @@ export const Data=[
     image: Image6
   },
   {
-    id: 78,
-    name: 'AdaaLearning | E-learning App',
-    link: 'https://adaalearning.com',
-    technology: 'Next Js, TypeScript, Laravel',
-    image: Image12
+    id: 1,
+    name: 'Shopiflex - Multivendor E-commerce',
+    link: 'http://shopiflex.infinityfreeapp.com/',
+    technology: 'Laravel, MySQL, PHP, BootStrap',
+    image: Image1
   },
   {
     id: 3,
