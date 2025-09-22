@@ -226,7 +226,7 @@ const Home = () => {
                 include:
                 <strong style={{ color: "#0E5092" }}>
                   {" "}
-                  Node, Express, MongoDB, TypeScript, FireBase, Testing, Cucumber, Cypress
+                  Node, Express, MongoDB, TypeScript, GraphQL, FireBase, Testing, Cucumber, Cypress
                 </strong>
                 .
               </p>
@@ -243,21 +243,21 @@ const Home = () => {
               <div className="bars">
                 <div className="info">
                   <span>JavaScript</span>
-                  <span>85%</span>
+                  <span>88%</span>
                 </div>
                 <div className="line css"></div>
               </div>
               <div className="bars">
                 <div className="info">
                   <span>PHP</span>
-                  <span>85%</span>
+                  <span>90%</span>
                 </div>
                 <div className="line php"></div>
               </div>
               <div className="bars">
                 <div className="info">
                   <span>JAVA</span>
-                  <span>75%</span>
+                  <span>80%</span>
                 </div>
                 <div className="line java"></div>
               </div>
@@ -271,7 +271,7 @@ const Home = () => {
               <div className="bars">
                 <div className="info">
                   <span>Graphic Designing</span>
-                  <span>75%</span>
+                  <span>80%</span>
                 </div>
                 <div className="line js"></div>
               </div>
