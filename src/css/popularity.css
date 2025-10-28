@@ -56,6 +56,7 @@ ul.filters > li.active > a {
   overflow: hidden;
   width: inherit;
   text-overflow: ellipsis;
+  padding-top: 1px;
 }
 
 @media(max-width: 365px){
@@ -72,6 +73,10 @@ ul.filters > li.active > a {
   .product_category{
     font-size: 11px !important;
   }
+  .clickIcon{
+    height: 14px;
+    width: 14px;
+  }
 }
 .product_name a {
   font-size: 16px;
@@ -82,7 +87,7 @@ ul.filters > li.active > a {
 }
 .product_name a:hover,
 .product_category a:hover {
-  color: rgb(241, 237, 16);
+  color: #0B5ED7;
 }
 .home_item_large .product_name a,
 .home_item_large .product_category,
@@ -128,5 +133,10 @@ ul.filters > li.active > a {
     padding: 0px;
     margin: 0;
   }
+}
+
+.clickIcon:hover{
+  color: rgb(221, 210, 0);
+  transition: all ease-in 0.1s;
 }
 /*--------------###End of Filtering Carousel###--------------*/

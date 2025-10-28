@@ -1,4 +1,4 @@
-import React from "react";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const CardProject = ({ item }) => {
   return (
@@ -18,15 +18,21 @@ const CardProject = ({ item }) => {
             />
           </div>
         </a>
-        <div class="product_info d-flex flex-row align-items-start justify-content-start">
+        <div class="product_info  flex-row align-items-start justify-content-start">
           <div>
             <div>
-              <div class="product_name">
-                <a target="_blank" href={item.link}>
-                  {item.name}
+              <div className="d-flex  flex-row justify-content-between align-items-center">
+                <div class="product_name">
+                  <a target="_blank" href={item.link} rel="noreferrer">
+                    {item.name}
+                  </a>
+                </div>
+                <a target="_blank" href={item.link} rel="noreferrer">
+                  <FaExternalLinkAlt className="clickIcon" size={16} />
                 </a>
               </div>
-              <div class="product_category">{item.technology}</div>
+
+              <div class="product_category mt-1">{item.technology}</div>
             </div>
           </div>
         </div>
