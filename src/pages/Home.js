@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import Typed from "typed.js";
 import Image from "../assets/PJr.webp";
 import CV from "../assets/CV14.pdf";
-import Me from "../assets/me.jpg";
+import Me from "../assets/photo1.webp";
 import "../css/popularity.css";
 import CardProject from "../components/card/CardProject";
 import { Data } from "../assets/data";
@@ -106,7 +106,16 @@ const Home = () => {
           <h2 className="title">About me</h2>
           <div className="about-content">
             <div className="column left">
-              <img src={Me} alt="Ogamba Patrick Junior" />
+              <a
+                style={{ textDecoration: "none" }}
+                href={Me}
+                class="glightbox"
+                data-gallery="gallery2"
+                target="_blank" rel="noreferrer"
+              >
+                <img src={Me} alt="Ogamba Patrick Junior" />
+
+              </a>
             </div>
             <div className="column right">
               <div className="text">
@@ -219,7 +228,7 @@ const Home = () => {
                 <strong style={{ color: "#0E5092" }}>GitHub</strong>.
                 <br />
                 <span style={{ fontWeight: "600" }}>9.</span> Skilled web application and REST APIs development with{" "}
-                <strong style={{ color: "#0E5092" }}>SpringBoot</strong> and 
+                <strong style={{ color: "#0E5092" }}>SpringBoot</strong> and
                 <strong style={{ color: "#0E5092" }}> Laravel</strong>.
                 <br />
                 <span style={{ fontWeight: "600" }}>10.</span> Other Skills
