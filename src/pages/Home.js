@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import Typed from "typed.js";
 import Image from "../assets/PJr.webp";
-import CV from "../assets/CV14.pdf";
+import CV from "../assets/CV15.pdf";
 import Me from "../assets/photo1.webp";
 import "../css/popularity.css";
 import CardProject from "../components/card/CardProject";
@@ -127,8 +127,8 @@ const Home = () => {
                 of Golf of Guinee having a Professional Bachelor in Software
                 Engineering, I successfully combined my studies, job and
                 other commitments showing myself to be self-motivated, organized
-                and capable of working in collaboration with others. In addition
-                to that I’m very hardworking, learn quickly and easily...
+                and capable of working in collaboration with others. Additionally, I am
+                highly motivated, quick to learn and adaptable.
               </p>
               <a download href={CV}>
                 Download CV
