@@ -12,8 +12,16 @@ import Image10 from './designs/mweb.webp';
 import Image11 from './designs/ayila.webp';
 import Image12 from './designs/adaalearning.webp';
 import Image13 from './designs/bantubeat.webp';
+import Image14 from './designs/flame.webp';
 
 export const Data = [
+  {
+    id: 80,
+    name: 'Flame | Social Gaming App',
+    link: 'https://flameinteractive.net',
+    technology: 'React Native, Expo, Laravel, Firebase',
+    image: Image14
+  },
   {
     id: 78,
     name: 'AdaaLearning | E-learning App',

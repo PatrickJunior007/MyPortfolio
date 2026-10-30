@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import Typed from "typed.js";
 import Image from "../assets/PJr.webp";
-import CV from "../assets/CV15.pdf";
+import CV from "../assets/CV16.pdf";
 import Me from "../assets/photo1.webp";
 import "../css/popularity.css";
 import CardProject from "../components/card/CardProject";
@@ -220,7 +220,8 @@ const Home = () => {
                 <strong style={{ color: "#0E5092" }}> Nuxt/Vue</strong>.
                 <br />
                 <span style={{ fontWeight: "600" }}>7.</span> Mobile Development with
-                <strong style={{ color: "#0E5092" }}> React Native</strong>.
+                <strong style={{ color: "#0E5092" }}> React Native</strong> and
+                <strong style={{ color: "#0E5092" }}> Expo</strong>.
                 <br />
                 <span style={{ fontWeight: "600" }}>8.</span> Clear and
                 understanding knowledge in the versioning tools{" "}
@@ -231,11 +232,24 @@ const Home = () => {
                 <strong style={{ color: "#0E5092" }}>SpringBoot</strong> and
                 <strong style={{ color: "#0E5092" }}> Laravel</strong>.
                 <br />
-                <span style={{ fontWeight: "600" }}>10.</span> Other Skills
+                <span style={{ fontWeight: "600" }}>10.</span> Cloud and
+                <strong style={{ color: "#0E5092" }}> AWS</strong> including
+                <strong style={{ color: "#0E5092" }}> Amazon S3</strong>,
+                <strong style={{ color: "#0E5092" }}> SES</strong>,
+                <strong style={{ color: "#0E5092" }}> IAM</strong> and
+                <strong style={{ color: "#0E5092" }}> Firebase</strong>.
+                <br />
+                <span style={{ fontWeight: "600" }}>11.</span> AI-assisted
+                development with
+                <strong style={{ color: "#0E5092" }}> Claude Code</strong> and
+                <strong style={{ color: "#0E5092" }}> OpenAI Codex</strong>:
+                agentic coding, code review, project context files.
+                <br />
+                <span style={{ fontWeight: "600" }}>12.</span> Other Skills
                 include:
                 <strong style={{ color: "#0E5092" }}>
                   {" "}
-                  Node, Express, MongoDB, TypeScript, GraphQL, FireBase, Testing, Cucumber, Cypress
+                  Node, Express, MongoDB, SQLite, TypeScript, GraphQL, FireBase, PHP Unit, Testing, Cucumber, Cypress, Salesforce
                 </strong>
                 .
               </p>
